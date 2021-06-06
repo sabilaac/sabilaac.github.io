@@ -67,7 +67,7 @@ body {
 
 .terminal {
     position: relative;
-    padding: 4rem;
+    padding-top: 4rem;
 }
 .terminal .prompt {
     color: #1ff042;
@@ -82,7 +82,7 @@ body {
     line-height: 1;
     margin-bottom: 0.75em;
 }
-.terminal .prompt:before {
+.terminal .line:before {
     content: '> ';
     display: inline-block;
 }
@@ -97,9 +97,9 @@ body {
     margin-left: 5px;
     background: #1ff042;
     box-shadow: 1px 1px 1px rgba(31, 240, 66, 0.65), -1px -1px 1px rgba(31, 240, 66, 0.65), 1px -1px 1px rgba(31, 240, 66, 0.65), -1px 1px 1px rgba(31, 240, 66, 0.65);
-    -webkit-animation: cursor-blink 1.25s steps(1) infinite;
-    -moz-animation: cursor-blink 1.25s steps(1) infinite;
-    animation: cursor-blink 1.25s steps(1) infinite;
+    -webkit-animation: cursor-blink 0.25s steps(1) infinite;
+    -moz-animation: cursor-blink 0.25s steps(1) infinite;
+    animation: cursor-blink 0.25s steps(1) infinite;
     content: '';
 }
 .four-oh-four-form {
@@ -127,7 +127,6 @@ pre {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.9em;
-    letter-spacing: 0.15em;
     white-space: pre-wrap;
     text-shadow: 0 0 2px rgba(31, 240, 66, 0.75);
     line-height: 1;
